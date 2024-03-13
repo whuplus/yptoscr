@@ -1,0 +1,17 @@
+[package]
+name = "bors"
+version = "1.1.1"
+edition = "2021"
+
+[dependencies]
+hex = { version = "0.4.3", default-features = false }
+const-sha1 = { git = "https://github.com/radixdlt/const-sha1", default-features = false }
+
+[features]
+default = ["std"]
+std = ["hex/std"]
+alloc = ["hex/alloc"]
+
+[lib]
+doctest = false
+bench = false

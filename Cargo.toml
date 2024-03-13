@@ -1,0 +1,14 @@
+[workspace]
+resolver = "1"
+
+members = [
+    "yptoscr",
+    "bors",
+    "ineeng",
+]
+
+[profile.release]
+panic = "unwind"
+
+[profile.test]
+panic = "unwind"
