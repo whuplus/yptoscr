@@ -2,7 +2,7 @@
 name = "bors"
 description = "This is a very basic library for serialization and deserialization."
 license = "Apache-2.0"
-version = "1.1.1"
+version = "1.1.2"
 edition = "2021"
 
 [dependencies]

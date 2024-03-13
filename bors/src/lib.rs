@@ -3,7 +3,7 @@ pub struct Serializable {
     pub value: String,
 }
 
-pub fn serialize(serializable: &Serializable) -> String {
+pub fn serialize(serializable: &Serializable, new_flag: bool) -> String {
     format!("{}={}", serializable.key, serializable.value)
 }
 
