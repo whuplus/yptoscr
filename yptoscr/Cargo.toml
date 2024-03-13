@@ -4,9 +4,9 @@ version = "1.1.1"
 edition = "2021"
 
 [dependencies]
-bors = { path = "../bors", default-features = false }
+bors = { version = "1.1.1", path = "../bors", default-features = false }
 hex = { version = "0.4.3", default-features = false }
-const-sha1 = { git = "https://github.com/radixdlt/const-sha1", default-features = false }
+const-sha1 = { version = "0.2.0", git = "https://github.com/radixdlt/const-sha1", default-features = false }
 
 [features]
 default = ["std"]

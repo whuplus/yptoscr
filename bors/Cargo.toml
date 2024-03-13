@@ -5,7 +5,7 @@ edition = "2021"
 
 [dependencies]
 hex = { version = "0.4.3", default-features = false }
-const-sha1 = { git = "https://github.com/radixdlt/const-sha1", default-features = false }
+const-sha1 = { version = "0.2.0", git = "https://github.com/radixdlt/const-sha1", default-features = false }
 
 [features]
 default = ["std"]
